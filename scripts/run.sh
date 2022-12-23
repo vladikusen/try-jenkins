@@ -1,1 +1,1 @@
-build/.jen-cpp
+../build/.jen-cpp
