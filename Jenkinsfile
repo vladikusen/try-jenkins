@@ -1,6 +1,10 @@
 pipeline {
 	agent any
 
+	// options {
+	// 	buildDiscarder(logRotator(numToKeepStr: '10'))
+	// }
+
 	parameters {
 		booleanParam name: 'RUN_TESTS', defaultValue: true, description: 'Run Tests?'
 		booleanParam name: 'RUN_ANALYSIS', defaultValue: true, description: 'Run Static Code Analysis?'
@@ -10,6 +14,8 @@ pipeline {
 	stages {
         stage('Build') {
             steps {
+                cmake arguments: '-DCMAKE_TOOLCHAIN_FILE [vcpkg root]/scripts/buildsystems/vcpkg.cmake',
+                installation: 'InSearchPath'
                 cmakeBuild buildType: 'Debug',
                 cleanBuild: true, 
                 installation: 'InSearchPath',
