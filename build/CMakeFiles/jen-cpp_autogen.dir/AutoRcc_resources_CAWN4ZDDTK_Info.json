@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/user/Documents/try_jenkins/build/jen-cpp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/user/Documents/try_jenkins/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/user/Documents/try_jenkins/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/user/Documents/try_jenkins",
+	"CMAKE_SOURCE_DIR" : "/home/user/Documents/try_jenkins",
+	"INCLUDE_DIR" : "/home/user/Documents/try_jenkins/build/jen-cpp_autogen/include",
+	"INPUTS" : [ "/home/user/Documents/try_jenkins/source/main.qml" ],
+	"LOCK_FILE" : "/home/user/Documents/try_jenkins/build/CMakeFiles/jen-cpp_autogen.dir/AutoRcc_resources_CAWN4ZDDTK_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "CAWN4ZDDTK",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/home/user/Qt/5.15.2/gcc_64/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/user/Documents/try_jenkins/build/CMakeFiles/jen-cpp_autogen.dir/AutoRcc_resources_CAWN4ZDDTK_Used.txt",
+	"SOURCE" : "/home/user/Documents/try_jenkins/source/resources.qrc",
+	"VERBOSITY" : 0
+}
