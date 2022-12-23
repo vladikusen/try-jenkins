@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo "building"'
                 sh 'chmod +x scripts/build.sh'
                 sh 'scripts/build.sh'
-                archiveArtifacts artifacts: 'bin/Debug/*', fingerprint: true
+                archiveArtifacts artifacts: 'build/*', fingerprint: true
             }
         }
         stage('Test') {
