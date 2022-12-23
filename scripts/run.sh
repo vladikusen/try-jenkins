@@ -1,1 +1,2 @@
-../build/.jen-cpp
+pwd
+.jen-cpp
