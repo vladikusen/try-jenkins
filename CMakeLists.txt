@@ -1,4 +1,4 @@
-set(CMAKE_SYSTEM_PREFIX_PATH "/home/user/Qt/5.15.2/gcc_64")
+# set(CMAKE_SYSTEM_PREFIX_PATH "/home/user/Qt/5.15.2/gcc_64")
 cmake_minimum_required(VERSION 3.0.0)
 project(jen-cpp VERSION 0.1.0)
 set(CMAKE_AUTOMOC ON)
